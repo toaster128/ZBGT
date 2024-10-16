@@ -41,7 +41,7 @@ public class CoverRecipes {
                 .scannerResearch(scanner -> scanner
                         .researchStack(DUAL_COVER_IV.getStackForm())
                         .duration(1200)
-                        .EUt(VA[IV]))
+                        .EUt(VA[HV]))
                 .output(DUAL_COVER_LuV)
                 .EUt(VA[LuV]).duration(20 * 15)
                 .buildAndRegister();
@@ -52,10 +52,10 @@ public class CoverRecipes {
                 .input(OrePrefix.circuit, MarkerMaterials.Tier.ZPM)
                 .fluidInputs(Materials.SolderingAlloy.getFluid(L * 2))
                 .fluidInputs(Materials.Lubricant.getFluid(250 * 2))
-                .stationResearch(research -> research
+                .stationResearch(scanner -> scanner
                         .researchStack(DUAL_COVER_LuV.getStackForm())
-                        .CWUt(16)
-                        .EUt(VA[LuV]))
+                        .duration(1200)
+                        .EUt(VA[IV]))
                 .output(DUAL_COVER_ZPM)
                 .EUt(VA[ZPM]).duration(20 * 20)
                 .buildAndRegister();
@@ -99,7 +99,7 @@ public class CoverRecipes {
                 .scannerResearch(scanner -> scanner
                         .researchStack(PRECISE_DUAL_COVER_IV.getStackForm())
                         .duration(1200)
-                        .EUt(VA[IV]))
+                        .EUt(VA[HV]))
                 .output(PRECISE_DUAL_COVER_LuV)
                 .EUt(VA[LuV]).duration(20 * 15)
                 .buildAndRegister();
@@ -111,10 +111,10 @@ public class CoverRecipes {
                 .input(OrePrefix.circuit, MarkerMaterials.Tier.ZPM)
                 .fluidInputs(Materials.SolderingAlloy.getFluid(L * 2))
                 .fluidInputs(Materials.Lubricant.getFluid(250 * 2))
-                .stationResearch(research -> research
+                .stationResearch(scanner -> scanner
                         .researchStack(PRECISE_DUAL_COVER_LuV.getStackForm())
-                        .CWUt(16)
-                        .EUt(VA[LuV]))
+                        .duration(1200)
+                        .EUt(VA[IV]))
                 .output(PRECISE_DUAL_COVER_ZPM)
                 .EUt(VA[ZPM]).duration(20 * 20)
                 .buildAndRegister();
