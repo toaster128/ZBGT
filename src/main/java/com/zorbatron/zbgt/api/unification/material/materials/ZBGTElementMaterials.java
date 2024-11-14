@@ -25,5 +25,15 @@ public final class ZBGTElementMaterials {
                 .color(0xE1FAFA)
                 .element(Elements.N)
                 .build();
+        CosmicNeutronium = new Material.Builder(id++, zbgtId("cosmicneutronium"))
+                .liquid(new FluidBuilder().temperature(0))
+                .ingot(7).iconSet(MaterialIconSet.SHINY)
+                .color(0x000000)
+                .secondaryColor(0x888888)
+                .blastTemp(10500)
+                .gasTier('highest')
+                .cableProperties(8388608,12,1)
+                .element(Elements.SpNt)
+                .build();
     }
 }
